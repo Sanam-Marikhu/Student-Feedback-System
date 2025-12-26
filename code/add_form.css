@@ -1,0 +1,96 @@
+/* ====== Page Base ====== */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* ====== Page Heading ====== */
+h2 {
+    color: #f39c12;
+    margin-top: 30px;
+    font-size: 26px;
+}
+
+/* ====== Back Button ====== */
+a {
+    display: inline-block;
+    background: white;                   /* White button */
+    color: #f39c12;                      /* Orange border */
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    margin: 15px 0 25px 0;
+    border: 2px solid #f39c12;          /* Add border for consistency */
+}
+a:hover {
+    background: #e67e22;                /* Dark Orange */
+    color: white;
+}
+/* ====== Form Container ====== */
+.add-form {
+    background: #ffffff;
+    width: 90%;
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+/* ====== Labels ====== */
+.add-form label {
+    font-weight: 600;
+    color: #444;
+}
+
+/* ====== Inputs & Dropdown ====== */
+.add-form input,
+.add-form select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 15px;
+    outline: none;
+    transition: 0.2s;
+}
+
+.add-form input:focus,
+.add-form select:focus {
+    border-color: #f39c12;
+    box-shadow: 0 0 3px rgba(243,156,18,0.4);
+}
+
+/* ====== Submit Button ====== */
+.add-form button {
+    width: 100%;
+    padding: 12px;
+    background: #f39c12;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.add-form button:hover {
+    background: #e67e22;
+}
+
+/* ====== Responsive ====== */
+@media (max-width: 550px) {
+    .add-form {
+        width: 95%;
+        padding: 20px;
+    }
+}
