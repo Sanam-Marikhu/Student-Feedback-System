@@ -1,0 +1,97 @@
+/* ====== General Styles ====== */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f7fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* ====== Dashboard Container ====== */
+.dashboard-container {
+    max-width: 1000px;
+    margin: 50px auto;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+
+/* ====== Header ====== */
+header {
+    background-color: #f39c12;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 4px solid #e67e22;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+/* ====== Navigation ====== */
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    display: inline-block;
+    background: white;
+    color: #f39c12;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    margin: 5px;
+}
+
+nav a:hover {
+    background: #e67e22;
+    color: white;
+}
+
+.logout-btn {
+    background: #ff4d4d;
+    color: white;
+}
+
+.logout-btn:hover {
+    background: #e63e3e;
+}
+
+/* ====== Main Section ====== */
+main {
+    padding: 30px;
+    text-align: center;
+}
+
+.info {
+    background-color: #fff3e0;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: inset 0 0 10px rgba(0,0,0,0.05);
+}
+
+.info h2 {
+    color: #f39c12;
+    margin-bottom: 10px;
+}
+
+.info p {
+    color: #555;
+}
+
+/* ====== Responsive ====== */
+@media (max-width: 768px) {
+    .dashboard-container {
+        width: 95%;
+        margin: 20px auto;
+    }
+
+    nav a {
+        display: block;
+        margin: 10px auto;
+    }
+}
